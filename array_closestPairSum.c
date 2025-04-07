@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <limits.h>
-
 int main() {
     int size;
     scanf("%d", &size);
@@ -12,7 +11,6 @@ int main() {
     
     int closest_sum = INT_MAX;
     int first = 0, second = 0;
-
     for (int i = 0; i < size - 1; i++) {
         for (int j = i + 1; j < size; j++) {
             int current_sum = a[i] + a[j];

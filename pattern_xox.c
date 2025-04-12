@@ -7,7 +7,6 @@ int main() {
         printf("Shape Not Possible");
         return 0;
     }
-    
     if(n>=2){
     if(n%2==0){
         for(int i=1 ; i<=n+1 ;i++ ){

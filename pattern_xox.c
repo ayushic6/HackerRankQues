@@ -12,7 +12,7 @@ int main() {
             for(int j=1 ; j<=n+1 ; j++){
                 if(j==(n/2)+1 || i==(n/2) +1){
                     printf("x");
-                }
+              }
                 else 
                 printf("o");
                 

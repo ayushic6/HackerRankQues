@@ -14,7 +14,7 @@ int main() {
                     printf("x");
                 }
                 else 
-                    printf("o");
+                printf("o");
                 
                 
             }printf("\n");

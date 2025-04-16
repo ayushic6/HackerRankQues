@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &num);
 
     
-      int a=num % 2 == 0 && num > 10;
+    int a=num % 2 == 0 && num > 10;
     int b=num > 15 && num % 3 == 0;
     int c=num % 7 == 0;
     int conditionsMet = a+b+c;

@@ -8,8 +8,7 @@ int main() {
         return 0;
     }
     res=n & ~(n - 1);
- 
-        printf("%d",res);
+    printf("%d",res);
        
     return 0;
 }

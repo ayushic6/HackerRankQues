@@ -7,7 +7,6 @@ void reverseArray(int arr[], int n) {
         arr[n - i - 1] = temp;
     }
 }
-
 int main() {
     int n;
     scanf("%d", &n);
